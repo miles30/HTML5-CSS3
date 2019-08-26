@@ -1,0 +1,483 @@
+/*блок шапка*/
+ .header {
+     width: 1280px;
+     margin: 0 auto 
+}
+ .background-photo {
+     display: block;
+     margin: auto;
+     width: 1280px;
+     height: 323px;
+}
+ h1 {
+     font-size: 18.241px;
+     font-family: "Arial";
+     color: rgb(255, 255, 255);
+     line-height: 1.2;
+     text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+     -moz-transform: matrix( 3.28931925746839, 0, 0, 3.28931925746839, 0, 0);
+     -webkit-transform: matrix( 3.28931925746839, 0, 0, 3.28931925746839, 0, 0);
+     -ms-transform: matrix( 3.28931925746839, 0, 0, 3.28931925746839, 0, 0);
+     position: absolute;
+     left: 477.293px;
+     top: 61.555px;
+     z-index: 7;
+}
+ .main-header-list {
+     font-size: 20px;
+     font-family: "Arial";
+     color: rgb(255, 255, 255);
+     line-height: 1.8;
+     text-align: left;
+     text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+     position: absolute;
+     left: 336.11px;
+     top: 130.837px;
+     z-index: 8;
+     list-style-image: url(img/check%20icon.png);
+}
+ .main-header-photo {
+     color: rgb(255, 255, 255);
+     position: absolute;
+     left: 700px;
+     top: -100px;
+     width: 469px;
+     height: 214px;
+     z-index: 7;
+}
+/*блок About*/
+ .About {
+     font-size: 30px;
+     font-family: "Arial";
+     color: rgb(68, 81, 97);
+     line-height: 1.2;
+     text-align: left;
+     position: relative;
+     left: 330px;
+}
+ .section1 {
+     font-size: 16px;
+     font-family: "Arial";
+     color: rgb(51, 51, 51);
+     line-height: 1.5;
+     width: 649px;
+     height: 63px;
+     position: absolute;
+     left: 330px;
+     z-index: 16;
+}
+ .section2 {
+     font-size: 16px;
+     font-family: "Arial";
+     color: rgb(51, 51, 51);
+     line-height: 1.5;
+     width: 649px;
+     height: 63px;
+     position: absolute;
+     left: 330px;
+     top: 500px;
+     z-index: 18;
+}
+ video {
+     background-color: rgb(68, 81, 97);
+     width: 430px;
+     height: 245px;
+     position: relative;
+     left: 1070px;
+     top: -47px;
+     z-index: 19;
+}
+/*блок Dignity*/
+ .Dignity {
+     font-size: 30px;
+     font-family: "Arial";
+     color: rgb(68, 81, 97);
+     line-height: 1.2;
+     text-align: center;
+}
+ .container {
+     width: 1280px;
+     margin: 0 auto;
+}
+ .dignity {
+     width: 100%;
+     padding: 50px;
+     box-sizing: border-box;
+}
+ .dignity:after {
+     content: "";
+     display: block;
+     width: 100%;
+     clear: both;
+}
+ .dignity-title {
+     display: block;
+     margin: 0 0 24px 0;
+     text-align: center;
+     font-size: 30px;
+     font-family: "Arial";
+     color: rgb(68, 81, 97);
+     line-height: 1.2;
+}
+ .dignity-list {
+     width: 540px;
+     margin: 0;
+     padding: 0 0 0 46px;
+     list-style-type: none;
+     float: left;
+}
+ .dignity-list:nth-child(3) {
+     float: right;
+}
+ .dignity-list-item {
+     margin: 0 0 40px 0;
+     position: relative;
+}
+ .dignity-list:nth-child(2)>.dignity-list-item:nth-child(3), .dignity-list:nth-child(3)>.dignity-list-item:nth-child(3) {
+     margin: 0;
+}
+ .dignity-list-item:before {
+     content: "+";
+     display: block;
+     width: 32px;
+     height: 32px;
+     background-color: #445161;
+     color: white;
+     font-size: 28px;
+     text-align: center;
+     line-height: 32px;
+     position: absolute;
+     top: 0;
+     left: -46px;
+}
+/*блок Scrinshots*/
+ .src{
+     width: 1280px;
+     margin: 0 auto;
+}
+ .scrins{
+     font-size: 30px;
+     font-family: "Arial";
+     color: rgb(68, 81, 97);
+     line-height: 1.2;
+     text-align: left;
+     position: relative;
+     left: 540px;
+}
+ span{
+     font-size: 23px;
+     font-family: "Arial";
+     color: rgb(68, 81, 97);
+     line-height: 1.25;
+}
+ .scrinshots{
+     font-size: 16px;
+     font-family: "Arial";
+     color: rgb(51, 51, 51);
+     line-height: 1.4;
+     width: 359px;
+}
+ .parent-scrinshots{
+     width: 1200px;
+     display: flex;
+     flex-direction: column;
+}
+ .child-scrinshots1{
+     min-width: 200px;
+     min-height: 150px;
+     align-self: flex-start;
+}
+ .child-scrinshots2{
+     align-self: flex-end;
+     margin-right: 630px;
+     margin-top: -150px;
+}
+ .child-scrinshots3{
+     min-width: 200px;
+     min-height: 150px;
+     align-self: flex-start;
+     margin-left: 620px;
+     margin-top: -170px;
+}
+ .child-scrinshots4{
+     align-self: flex-end;
+     margin-right: 10px;
+     margin-top: -150px;
+}
+ .child-scrinshots5{
+     min-width: 200px;
+     min-height: 150px;
+     align-self: flex-start;
+}
+ .child-scrinshots6{
+     align-self: flex-end;
+     margin-right: 630px;
+     margin-top: -150px;
+}
+ .child-scrinshots7 {
+     min-width: 200px;
+     min-height: 150px;
+     align-self: flex-start;
+     margin-left: 620px;
+     margin-top: -170px;
+}
+ .child-scrinshots8{
+     align-self: flex-end;
+     margin-right: 10px;
+     margin-top: -150px;
+}
+/*блок Reviews*/
+ .rev{
+     width: 1280px;
+     margin: 0 auto;
+}
+ .parent-reviews{
+     width: 1200px;
+     display: flex;
+     flex-direction: column;
+}
+ .child-reviews{
+     width: 75px;
+     height: 75px;
+}
+ .child-reviews-bg{
+     width: 483px;
+     height: 121px;
+     margin-left: 90px;
+     margin-top: -70px;
+}
+ .child-reviews-text {
+     margin-left: 120px;
+     margin-top: -120px;
+}
+ .child-reviews2{
+     width: 75px;
+     height: 75px;
+     margin-top: 50px;
+}
+ .child-reviews-bg2{
+     width: 483px;
+     height: 121px;
+     margin-left: 90px;
+     margin-top: -77px;
+}
+ .child-reviews-text2 {
+     margin-left: 120px;
+     margin-top: -117px;
+}
+ .child-reviews3{
+     width: 75px;
+     height: 75px;
+     margin-top: -300px;
+     margin-left: 600px;
+}
+ .child-reviews-bg3{
+     width: 483px;
+     height: 121px;
+     margin-left: 690px;
+     margin-top: -77px;
+}
+ .child-reviews-text3 {
+     margin-left: 720px;
+     margin-top: -120px;
+}
+ .child-reviews4{
+     width: 75px;
+     height: 75px;
+     margin-top: 50px;
+     margin-left: 600px 
+}
+ .child-reviews-bg4{
+     width: 483px;
+     height: 121px;
+     margin-left: 690px;
+     margin-top: -77px;
+}
+ .child-reviews-text4 {
+     margin-left: 720px;
+     margin-top: -120px;
+}
+ .text{
+     font-size: 14px;
+     font-family: "Arial";
+     color: rgb(51, 51, 51);
+     font-style: italic;
+     line-height: 1.286;
+     text-align: left;
+     width: 436px;
+     height: 64px;
+}
+ .lourens{
+     font-size: 14px;
+     font-family: "Arial";
+     color: rgb(152, 152, 152);
+     line-height: 1.286;
+     text-align: left;
+}
+/*блок Buy*/
+ .buy{
+     width: 1280px;
+     min-height:750px;
+     margin: 0 auto;
+}
+ .bit{
+     font-size: 30px;
+     font-family: "Arial";
+     color: rgb(68, 81, 97);
+     line-height: 1.2;
+     text-align: left;
+     position: relative;
+     left: 540px;
+}
+ .parent-buy{
+     width: 1200px;
+     display: flex;
+     flex-direction:row;
+}
+ .child-buy1{
+     width: 300px;
+     height: 306px;
+     align-self: flex-start;
+     margin-top: 195px;
+     margin-left: 50px;
+}
+ .child-buy2{
+     width: 300px;
+     height: 404px;
+     align-self: flex-start;
+     margin-left: 50px;
+     margin-top: 95px;
+}
+ .child-buy3{
+     width: 300px;
+     height: 499px;
+     align-self: flex-start;
+     margin-left: 50px;
+     margin-top: 0px;
+}
+ .bg-price1{
+     width: 300px;
+     height: 71px;
+     margin-left:50px;
+     margin-top: -260px;
+}
+ .bg-price2{
+     width: 300px;
+     height: 71px;
+     margin-left:400px;
+     margin-top: -170px;
+}
+ .bg-price3{
+     width: 300px;
+     height: 71px;
+     margin-left:750px;
+     margin-top: -170px;
+}
+ .pr1{
+     font-size: 24px;
+     font-family: "Arial";
+     color: rgb(255, 255, 255);
+     line-height: 1.25;
+     text-align: left;
+     margin-left:140px;
+     margin-top: 90px;
+}
+ .pr2{
+     font-size: 24px;
+     font-family: "Arial";
+     color:rgb(255, 255, 255);
+     line-height: 1.25;
+     text-align: left;
+     margin-left:490px;
+     margin-top: -135px;
+}
+ .pr3{
+     font-size: 24px;
+     font-family: "Arial";
+     color:rgb(255, 255, 255);
+     line-height: 1.25;
+     text-align: left;
+     margin-left:870px;
+     margin-top: -122px;
+}
+ .pr100{
+     font-size: 40px;
+     font-family: "Arial";
+     color: rgb(68, 81, 98);
+     line-height: 0.75;
+     text-align: left;
+     margin-left:150px;
+     margin-top: 225px;
+}
+ .pr150{
+     font-size: 40px;
+     font-family: "Arial";
+     color: rgb(68, 81, 98);
+     line-height: 0.75;
+     text-align: left;
+     margin-left:495px;
+     margin-top: -165px;
+}
+ .pr200{
+     font-size: 40px;
+     font-family: "Arial";
+     color: rgb(68, 81, 98);
+     line-height: 0.75;
+     text-align: left;
+     margin-left:845px;
+     margin-top: -170px;
+}
+ input[type=submit2]{
+     text-align: center;
+     border-radius: 5px;
+     background-color: rgb(255, 255, 255);
+     width: 260px;
+     height: 40px;
+     font-weight: 900;
+}
+ .input1{
+     margin-left: 70px;
+     margin-top: 22px;
+}
+ .input2{
+     margin-left: 420px;
+     margin-top: -47px;
+}
+ .input3{
+     margin-left: 765px;
+     margin-top: -47px;
+}
+ .price-specification1{
+     margin-left: 90px;
+     margin-top: 220px;
+     font-size: 14px;
+     font-family: "Arial";
+     color:rgb(255, 255, 255);
+     line-height: 1.714;
+     text-align: left;
+     width: 242px;
+     height: 86px;
+}
+ .price-specification2{
+     margin-left: 440px;
+     margin-top: -200px;
+     font-size: 14px;
+     font-family: "Arial";
+     color:rgb(255, 255, 255);
+     line-height: 1.714;
+     text-align: left;
+     width: 242px;
+     height: 182px;
+}
+ .price-specification3{
+     margin-left: 790px;
+     margin-top: -295px;
+     font-size: 14px;
+     font-family: "Arial";
+     color:rgb(255, 255, 255);
+     line-height: 1.714;
+     text-align: left;
+     width: 250px;
+     height: 278px;
+}
+ 
